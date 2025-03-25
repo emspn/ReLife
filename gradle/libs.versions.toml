@@ -1,0 +1,153 @@
+[versions]
+agp = "8.7.3"
+kotlin = "2.0.0"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.10.0"
+composeBom = "2024.04.01"
+googleGmsGoogleServices = "4.4.2"
+firebaseDatabase = "21.0.0"
+
+compose = "1.1.1"
+androidx_lifecycle = "2.4.0"
+
+androidx_navigation = "2.4.2"
+
+accompanist = "0.24.2-alpha"
+roomCommon = "2.6.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+
+androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "compose" }
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidx_lifecycle" }
+
+accompanist-pager-v0263beta = { group = "com.google.accompanist", name = "accompanist-pager", version = "0.26.3-beta" }
+accompanist-pager-indicators-v0263beta = { group = "com.google.accompanist", name = "accompanist-pager-indicators", version = "0.26.3-beta" }
+
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidx_navigation" }
+
+accompanist-insets = { group = "com.google.accompanist", name = "accompanist-insets", version.ref = "accompanist" }
+accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "accompanist" }
+
+play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version = "18.0.2" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version = "18.0.0" }
+maps-compose = { group = "com.google.maps.android", name = "maps-compose", version = "2.5.1" }
+androidx-room-common = { group = "androidx.room", name = "room-common", version.ref = "roomCommon" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#[versions]
+#agp = "8.7.3"
+#coilCompose = "3.0.4"
+#compose = "1.1.1"
+#androidx_core = "1.7.0"
+#androidx_lifecycle = "2.4.0"
+#androidx_activity = "1.4.0"
+#androidx_navigation = "2.4.2"
+#firebaseBomVersion = "33.8.0"  # Renamed to avoid conflict
+#coil = "1.4.0"
+#accompanist = "0.24.2-alpha"
+#google_services = "4.3.8"
+#maps = "3.1.0"
+#okhttp = "4.9.2"
+#material = "1.5.0"
+#ui = "1.0.0"
+#kotlin = "2.0.0"
+#coreKtx = "1.15.0"
+#junit = "4.13.2"
+#junitVersion = "1.2.1"
+#espressoCore = "3.6.1"
+#lifecycleRuntimeKtx = "2.8.7"
+#activityCompose = "1.10.0"
+#composeBom = "2024.04.01"
+#firebaseDatabase = "21.0.0"
+#
+#[libraries]
+#androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx_core" }
+#androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidx_lifecycle" }
+#androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidx_activity" }
+#androidx-compose-bom = { group = "androidx.compose", name = "bom", version.ref = "compose" }
+#androidx-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "compose" }
+#androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics", version.ref = "compose" }
+#androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref = "compose" }
+#androidx-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "compose" }
+#androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "androidx_core" }
+#firebase-auth = { module = "com.google.firebase:firebase-auth" }
+#firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBomVersion" }  # Updated reference
+#googleid = { group = "com.google.android.gms", name = "play-services-auth", version = "19.2.0" }
+#androidx-storage = { group = "androidx.security", name = "security-crypto", version = "1.1.0-alpha03" }
+#junit = { group = "junit", name = "junit", version = "4.13.2" }
+#androidx-junit = { group = "androidx.test.ext", name = "junit", version = "1.1.3" }
+#androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version = "3.4.0" }
+#androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4", version.ref = "compose" }
+#androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "compose" }
+#androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest", version.ref = "compose" }
+#androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidx_navigation" }
+#play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version = "18.0.2" }
+#play-services-location = { group = "com.google.android.gms", name = "play-services-location", version = "18.0.0" }
+#maps-compose = { group = "com.google.maps.android", name = "maps-compose", version = "2.5.1" }
+#androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "compose" }
+#androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidx_lifecycle" }
+#coil-kt-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coilCompose" }
+#accompanist-insets = { group = "com.google.accompanist", name = "accompanist-insets", version.ref = "accompanist" }
+#accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "accompanist" }
+#okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+#androidx-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+#ui = { group = "com.google.accompanist", name = "accompanist-pager", version.ref = "accompanist" }
+#accompanist-pager-v0263beta = { group = "com.google.accompanist", name = "accompanist-pager", version = "0.26.3-beta" }
+#accompanist-pager-indicators-v0263beta = { group = "com.google.accompanist", name = "accompanist-pager-indicators", version = "0.26.3-beta" }
+#firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+#
+#[plugins]
+#android-application = { id = "com.android.application", version.ref = "agp" }
+#kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+#kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "468999529205",
+    "project_id": "relife-a8566",
+    "storage_bucket": "relife-a8566.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468999529205:android:95c8be8a694d123c191bbc",
+        "android_client_info": {
+          "package_name": "com.example.relife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468999529205-dh5p67k9obctdvpeeu0shdiubdojeeu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ-rJou-bkj23slpfzL4CRAtEKFJ4yEuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468999529205-dh5p67k9obctdvpeeu0shdiubdojeeu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
